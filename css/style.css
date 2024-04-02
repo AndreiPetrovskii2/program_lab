@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+header {
+    width: 328px;
+    margin: 0 auto;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_input-block {
+    display: flex;
+    align-items: center;
+    width: 224px;
+    height: 36px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+.header_input-block img {
+    padding-left: 14.75px;
+}
+.header_input-block input {
+    padding-left: 12px;
+    width: 164px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #22222257;
+    border: none;
+}
+.bell {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
