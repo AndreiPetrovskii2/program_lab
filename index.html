@@ -16,13 +16,13 @@
 </head>
 <body>
     <header>
-        <img src="imgs/logo (1).png" alt="">
+        <a href=""><img src="imgs/logo (1).png" alt=""></a>
         <div class="header_input-block">
-            <img src="imgs/Search.png" alt="">
+            <a href=""><img src="imgs/Search.png" alt=""></a>
             <input type="text" placeholder="Поиск">
         </div>
         <div class="bell">
-            <img src="imgs/icon.png" alt="">
+            <a href=""><img src="imgs/icon.png" alt=""></a>
         </div>
     </header>
     <main> 
@@ -41,6 +41,12 @@
         </div>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="imgs/card.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/card 2.png" alt="">
+                </div>
                 <div class="swiper-slide">
                     <img src="imgs/card.png" alt="">
                 </div>
@@ -88,31 +94,86 @@
                         <p>нужной информации</p>
                     </div>
                 </div>
-                <div class="news">
-                    <div class="news_text">
-                        <h2>Новости</h2>
-                        <a href="">Читать все</a>
-                    </div>
-                    <div class="news_card">
-                        <img src="imgs/bg.png" alt="">
-                        <div class="news_card-text">
-                            <h3>Кредитные организации</h3>
-                            <p>Банкам нельзя с 1 июля требовать от компаний, ИП и физлиц повышенные комиссии</p>
-                            <p class="date">25 апреля</p>
-                        </div>  
-                    </div>
+            </div>
+            <div class="news">
+                <div class="news_text">
+                    <h2>Новости</h2>
+                    <a href="">Читать все</a>
+                </div>
+                <div class="news_card">
+                    <img src="imgs/bg.png" alt="">
+                    <div class="news_card-text">
+                        <h3>Кредитные организации</h3>
+                        <p>Банкам нельзя с 1 июля требовать от компаний, ИП и физлиц повышенные комиссии</p>
+                        <p class="date">25 апреля</p>
+                    </div>  
+                </div>
+                <div class="news_card2">
+                    <img class="bg2" src="imgs/bg2.png" alt="">
+                    <div class="news_card-text">
+                        <h3>Кредитные организации</h3>
+                        <p>Банкам нельзя с 1 июля требовать от компаний, ИП и физлиц повышенные комиссии</p>
+                        <p class="date">25 апреля</p>
+                    </div>  
+                </div>
+                <div class="news_card3">
+                    <div class="news_card-text">
+                        <h3>Кредитные организации</h3>
+                        <p>Банкам нельзя с 1 июля требовать от компаний, ИП и физлиц повышенные комиссии</p>
+                        <p class="date">25 апреля</p>
+                    </div>  
                 </div>
             </div>
         </div>
     </main> 
-    <footer></footer>
+    <footer>
+        <div class="footer_menu">
+            <div class="footer_serv">
+                <a href="">
+                    <div class="footer_img-text">
+                        <img src="imgs/дом.png" alt="">
+                        <p>Главная</p>
+                    </div>
+                </a>
+            </div>
+            <div class="footer_serv">
+                <a href="">
+                    <div class="footer_img-text2">
+                        <img src="imgs/книга.png" alt="">
+                        <p>Сервисы</p>
+                    </div>
+                </a>
+            </div>
+            <div class="footer_serv">
+                <a href="">
+                    <div class="footer_img-text2">
+                        <div class="footer_img-obr">
+                            <img src="imgs/обращения.png" alt="">
+                            <div class="number">4</div>
+                        </div>
+                        <p>Обращения</p>
+                    </div>
+                </a>
+            </div>
+            <div class="footer_serv">
+                <a href="">
+                    <div class="footer_img-text2">
+                        <img src="imgs/телефон.png" alt="">
+                        <p>Звонок</p>
+                    </div>
+                </a>
+            </div>
+            <div class="footer_serv">
+                <a href="">
+                    <div class="footer_img-text2">
+                    <img src="imgs/иконка.png" alt="">
+                    <p>Профиль</p>
+                </div></a>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: "auto",
-            spaceBetween: 12,
-            loop: true,
-        });
-      </script>
+    <script src="js/slider.js"></script>
+    <script src="js/complite.js"></script>
 </body>
 </html>
