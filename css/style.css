@@ -3,6 +3,9 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
+body {
+    background-color: #f6f6f6;
+}
 header {
     width: 328px;
     margin: 0 auto;
@@ -37,4 +40,231 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.container {
+    width: 328px;
+    margin: 0 auto;
+}
+.need_help {
+    margin-top: 12px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: #004bff14;
+    height: 136px;
+    border-radius: 16px;
+}
+.need_help-text {
+    position: relative;
+    padding-top: 12px;
+    flex-direction: column;
+    display: flex;
+    height: 60px;
+    width: 304px;
+}
+.need_help-text h1 {
+    display: flex;
+    justify-content: end;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.need_help-text p {
+    padding-left: 90px;
+    display: flex;
+    justify-content: end;
+    line-height: 16px;
+    font-weight: 500;
+    width: 199px;
+    font-size: 13px;
+    color: #22222299;
+}
+.need_help button {
+    margin-top: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    font-size: 16px;
+    color: white;
+    gap: 12px;
+    background-color: #04B6F5;
+    border: none;
+    width: 304px;
+    height: 40px;
+}
+.need_help-text img {
+    top: -19px;
+    left: -33px;
+    height: 114px;
+    position: absolute;
+    width: 143.2px;
+}
+.swiper-slide {
+    
+    width: 120px !important;
+    height: 80px;
+}
+.clients {
+    margin-top: 12px;
+}
+.clients h2 {
+    padding-top: 8px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.swiper {
+    padding-left: 16px;
+    padding-top: 12px;
+}
+.connection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px #04B6F529 solid;
+    height: 331px;
+    margin-top: 24px;
+    background-color: #004bff14;
+}
+.connection_block {
+    border-radius: 8px;
+    background-color: #004bff14;;
+    height: 123px;
+    width: 295px;
+    margin-top:24px;
+}
+.connection_block img {
+    margin-top: -37px;
+    padding-left: 38px;
+}
+.connection_text {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 280px;
+    height: 72px;
+}
+.connection_text h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.connection_text p {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+}
+.connection button {
+    margin-top: 24px;
+    width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 24px;
+    font-size: 15px;
+    color: white;
+    background-color: #04B6F5;
+}
+.services {
+    height: 292px;
+    background-color: #f6f6f6;
+}
+.services h2 {
+    padding-top: 16px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card_situations {
+    background-color: white;
+    border-radius: 16px;
+    width: 158px;
+    height: 110px;
+}
+.card_situations img {
+    padding-left: 12px;
+    padding-top: 12px;
+}
+.card_situations h3 {
+    padding-left: 12px;
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.card_situations p {
+    padding-left: 12px;
+    padding-top: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #22222299;
+}
+.services_cards {
+    gap: 12px;
+    margin-top: 12px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.news {
+    height: 402px;
+    background-color: #f6f6f6;
+}
+.news_text {
+    display: flex;
+    justify-content: space-between;
+}
+.news_text h2 {
+    padding-top: 16px !important;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.news_text a {
+    text-decoration: none;
+    padding-top: 16px !important;
+    color: #04B6F5;
+    line-height: 24px;
+    padding-top: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.news_card {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    margin-top: 12px;
+    border-radius: 16px;
+    width: 328px;
+    height: 114px;
+}
+.news_card img {
+    padding-left: 12px;
+    width: 90px;
+    height: 90px;
+}
+.news_card-text {
+    display: flex;
+    flex-direction: column;
+}
+.news_card-text h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.news_card-text p {
+    font-size: 12px;
+    font-weight: 450;
+    line-height: 16px;
+    width: 219px;
+    color: #22222299;
+    letter-spacing: 0.4px;
+}
+.date {
+    font-size: 10px !important;
+    line-height: 12px !important;
+    font-weight: 500 !important; 
 }

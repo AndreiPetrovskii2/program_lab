@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>MYAC</title>
 </head>
@@ -24,7 +25,94 @@
             <img src="imgs/icon.png" alt="">
         </div>
     </header>
-    <main></main>
+    <main> 
+        <div class="container">
+            <div class="need_help">
+                <div class="need_help-text">
+                    <img src="imgs/Male Lawyer.png" alt="">
+                    <h1>Нужна срочная помощь?</h1>
+                    <p>Мы на связи в любое время, чтобы помочь вам!</p>
+                </div>
+                <button>Позвонить нам <img src="imgs/Call.png" alt=""></button>
+            </div>
+            <div class="clients">
+                <h2>Ситуации наших последних клиентов</h2>
+            </div>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="imgs/card.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/card 2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/card.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/card 2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="connection">
+                <div class="connection_block">
+                    <img src="imgs/Illustration.png" alt="">
+                </div>
+                <div class="connection_text">
+                    <h2>Мы всегда на связии готовы помочь вам</h2>
+                    <p>Готовы проконсультировать вас</p>
+                </div>
+                <button>Мне нужна консультация</button>
+            </div>
+            <div class="services">
+                <h2>Наши услуги</h2>
+                <div class="services_cards">
+                    <div class="card_situations">
+                        <img src="imgs/icons.png" alt="">
+                        <h3>Ситуации</h3>
+                        <p>в судебной практике</p>
+                    </div>
+                    <div class="card_situations">
+                        <img src="imgs/icons2.png" alt="">
+                        <h3>Вопрос ответ</h3>
+                    </div>
+                    <div class="card_situations">
+                        <img src="imgs/icons3.png" alt="">
+                        <h3>Документы</h3>
+                    </div>
+                    <div class="card_situations">
+                        <img src="imgs/icons4.png" alt="">
+                        <h3>Справочник</h3>
+                        <p>нужной информации</p>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="news_text">
+                        <h2>Новости</h2>
+                        <a href="">Читать все</a>
+                    </div>
+                    <div class="news_card">
+                        <img src="imgs/bg.png" alt="">
+                        <div class="news_card-text">
+                            <h3>Кредитные организации</h3>
+                            <p>Банкам нельзя с 1 июля требовать от компаний, ИП и физлиц повышенные комиссии</p>
+                            <p class="date">25 апреля</p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
     <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            spaceBetween: 12,
+            loop: true,
+        });
+      </script>
 </body>
 </html>
