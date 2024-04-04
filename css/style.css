@@ -10,11 +10,21 @@ a {
     text-decoration: none;
 }
 header {
-    width: 328px;
-    margin: 0 auto;
     height: 56px;
-    display: flex;
+}
+.header {
+    position: fixed;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    width: 100%;
+    height: 56px;
+    background-color: #f6f6f6;
+}
+.header_menu {
+    width: 328px;
+    display: flex;
     justify-content: space-between;
 }
 button {
@@ -316,7 +326,14 @@ button {
 .news_card3 .news_card-text h3 {
     padding-top: 12px;
 }
+footer {
+    height: 56px;
+}
 .footer_menu {
+    position: fixed;
+    top: 788px;
+    left: 0;
+    width: 100%;
     margin-top: 76px;
     background-color: white;
     display: flex;
